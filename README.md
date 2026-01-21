@@ -13,7 +13,7 @@
 ### Backend
 - Node.js
 - Express.js
-- MongoDB (if used)
+- MongoDB 
 - Mongoose
 
 ---
