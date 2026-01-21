@@ -23,3 +23,12 @@
 ### 1️⃣ Clone the Repository
 ```bash
 git clone <your-repo-url>
+
+```bash
+cd backend
+npm run dev
+
+```bash
+cd frontend
+npm run dev
+
