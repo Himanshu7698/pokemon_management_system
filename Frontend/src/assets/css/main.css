@@ -1,0 +1,117 @@
+/* Ensure the background covers the whole screen */
+.page-wrapper {
+    background-color: #f5f5f5;
+    /* Light gray background */
+    min-height: 100vh;
+    width: 100%;
+}
+
+.main-title {
+    font-size: 2.5rem;
+    color: #212529;
+}
+
+.text-pink {
+    color: #e85da1;
+}
+
+.border-bottom-dotted {
+    border-bottom: 1px dotted #e85da1;
+}
+
+/* Input Styling */
+.custom-input {
+    background-color: #f0f0f0 !important;
+    border: 1px solid #ddd !important;
+    border-radius: 10px !important;
+    padding: 12px 20px !important;
+}
+
+.btn-fetch {
+    background-color: #e85da1 !important;
+    color: white !important;
+    font-weight: bold;
+    border-radius: 12px !important;
+    padding: 0 25px;
+}
+
+/* The Dotted Card */
+.pokemon-card {
+    max-width: 900px;
+    background-color: #f6f6f6 !important;
+    /* Keep it transparent to show page bg or set to white */
+    border-radius: 30px;
+    text-align: center;
+}
+
+.pokemon-card-empty {
+    border: 2px dashed #e85da1 !important;
+}
+
+.pokemon-card-filled-ability {
+    border-bottom: 2px solid #e85da1 !important;
+}
+
+.pokemon-card-empty-ability {
+    border-bottom: 2px dashed #e85da1 !important;
+}
+
+.pokemon-card-filled {
+    border: 2px solid #e85da1 !important;
+}
+
+.image-placeholder {
+    width: 250px;
+    height: 250px;
+    border: 1.5px dotted #e85da1;
+    border-radius: 25px;
+    background-color: transparent;
+}
+
+/* Stats Styling */
+.stats-container {
+    max-width: 350px;
+}
+
+.border-bottom-pink {
+    border-bottom: 1px dotted #e85da1;
+}
+
+/* Loading Dots Animation */
+.loading-dots span {
+    width: 12px;
+    height: 12px;
+    margin: 0 4px;
+    background-color: #e85da1;
+    border-radius: 50%;
+    display: inline-block;
+    animation: bounce 1.4s infinite ease-in-out both;
+}
+
+.loading-dots span:nth-child(1) {
+    animation-delay: -0.32s;
+}
+
+.loading-dots span:nth-child(2) {
+    animation-delay: -0.16s;
+}
+
+@keyframes bounce {
+
+    0%,
+    80%,
+    100% {
+        transform: scale(0);
+    }
+
+    40% {
+        transform: scale(1.0);
+    }
+}
+
+.custom-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    background-color: #f6f6f6;
+}
